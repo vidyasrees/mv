@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-               'git https://github.com/vidyasrees/mv.git'
+               git 'https://github.com/vidyasrees/mv.git'
             }
         }
         stage('ContinuousBuild')
